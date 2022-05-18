@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+				<meta charset="UTF-8">
+				<meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no"/>
+				<title>Ashutosh Pandey</title>
+</head>
+<body id="body">
+<div id="nav">
+<form action="https://abtp2.github.io/ashutosh">
+<div id="nav-form">
+<img src="p-trans.png" width="20">
+<input type="search" placeholder="Search GetWeb...">
+</div>
+</form>
+<div id="nav-toggler" onclick="get()"><div id="nav-toggle">☀️</div></div>
+</div>
+
+
+<section id="section1">
+<div id="row">		
+          <div id="col1">
+              <img src="about2.jpg" id="logo">
+          </div>		
+			
+			 <div id="col2">
+			 	<h1>
+			 		Hello, I am Ashutosh  Pandey
+				</h1>
+				<h3>
+				I am a founder of <span id="span">GetWeb </span>,a website where you can learn HTML, CSS , and JavaScript. Also you get free web templates and components. <br>
+			I have also founded a CSS library for making fast responsive websites.
+				</h3>
+				<a href="index.html" id="link">Learn More</a>
+			 </div>	
+</div>
+</section>
+
+
+
+<section id="section2">
+	<h1>My Skills <hr id="horizon"></h1>		
+	
+	<div id="skills">					
+	<label for="file">HTML</label><br>
+   <div id="file" style="width:95%;">97%</div>
+   <br>
+   <label for="file">CSS</label><br>
+      <div id="file" style="width:80%;">80%</div>
+   <br>
+   	<label for="file">JavaScript</label><br>
+      <div id="file" style="width:76%;">76%</div>
+   <br>
+   	<label for="file">Python</label><br>
+   <div id="file" style="width:60%;">60%</div>
+   <br>
+   	<label for="file">GetWeb.css</label><br>
+   <div id="file" style="width:98%;">100%</div>
+
+	</div>
+</section>
+
+
+
+
+<section id="section3">
+	<h1>Contact me<hr id="horizon"></h1>		
+	<form action="index.html">
+    <div id="con-form">
+    	<h3>Send your email here</h3>
+    	<input type="email" placeholder="Your email" required>
+    	<br>
+    	<input type="text" placeholder="How do you know about me ?" required>
+    	<br>
+    	<textarea placeholder="Your message here" required></textarea>
+    	<br>
+    	<input type="submit" id="form-give">
+    </div>	
+    </form>			
+</section>
+
+
+
+
+<section>
+<div id="footer"><h2>Created by Ashutosh Pandey || ©️ All rights reserved</h2></div>
+</section>
+
+
+<style>
+html{
+scroll-snap-type: mandatory; 
+scroll-snap-points-y: repeat(100vh);
+scroll-snap-type: y mandatory;		
+scroll-behavior:smooth;
+}
+section{
+scroll-snap-align: start;				
+}
+
+body{
+color:#000144;
+background:#f2f2f2;
+margin:0;
+padding:0;
+overflow-x:hidden;
+transition: all 0.3s;
+height:100%;
+}
+
+
+::placeholder{
+color:#f2f2f2;
+}
+
+#nav{
+width:100%;
+padding:3px 7px; 
+height:50px;
+display:flex;
+align-items:center; 
+position:fixed;
+top:0;
+background:#f2f2f2;
+box-shadow:0px 0px 5px 5px #c0c0c0;
+z-index:999;
+}
+
+#nav-form input{
+padding-inline:9px;
+height:33px;
+width:220px;
+color:#f2f2f2;
+outline: none; 
+border:none;
+box-shadow:none;
+background:#000144;
+}
+
+@media(max-width:400px){
+#nav-form input{
+width:190px;
+}				
+}
+
+#nav-form{
+outline:none;
+box-shadow:none;
+background:#000144;
+padding-top:3px;
+padding-bottom:3px;
+padding-left:9px;
+padding-right:3px;
+border-radius:10px;
+display: flex;
+align-items:center;
+width:230px;
+margin-left:0rem;
+}
+
+
+#nav-toggler{
+position:absolute;
+right:23px;
+width:55px;
+height:24px;
+padding:5px;
+border-radius:100px;
+background:#000144;
+display:flex;
+justify-content:flex-start;
+transition: all 0.3s;
+}
+
+#nav-toggle{
+width:24px;
+height:24px;
+border-radius:100%;
+background: #f2f2f2;
+display:flex;
+align-items:center;
+justify-content: center;
+}
+
+@media(min-width:900px){
+#nav-form{
+margin-left:1.2rem;
+width:290px;
+}
+#nav-form input{
+width:280px;
+}
+#nav-toggler{
+right:40px;
+}
+}
+
+#section1{
+height:100vh;
+padding-top:2rem;
+display:flex;
+align-items:center; 
+justify-content:center;
+}
+
+
+#row{
+width:88%;
+margin:0 auto;
+align-items:center;
+display:flex;
+flex-direction:column; 
+border:3.5px solid #000144;
+padding:18px 0px;
+border-radius:20px;
+}
+#col1{
+height:100%;
+width:100%;
+}
+#col1 img{
+width:200px;
+height:200px;
+border-radius:100%;
+border:5px solid #000144;
+margin:0 auto;
+display:block;
+}
+
+#col2{
+width:100%;
+height:100%;
+}
+
+#col2 h3{
+padding:25px;
+line-height:30px;
+font-weight:450;
+}
+#col2 h1{
+text-align: center; 
+}
+
+#col2 a{
+text-decoration:none;
+background:#000144;
+color:#f2f2f2;
+border-radius:5px;
+padding:8px 10px;
+width:100px;
+margin:0 auto;
+display:block;
+text-align:center;
+}
+
+@media(min-width:900px){
+#row{
+flex-direction:row;
+width:70%;
+padding:40px 0px;
+}		
+#col1 img{
+width:270px;
+height:270px;
+}
+}
+
+
+
+#section2{
+height:100vh;
+display:flex;
+flex-direction:column;
+align-items:center; 
+justify-content:center;
+padding-top:1.5rem;
+}
+#skills{
+width:86%;
+padding:15px;
+border-radius:10px; 
+display:flex; 
+flex-direction:column;
+justify-content:flex-start;
+margin-top:2.5rem;
+box-shadow:0px 0px 5px #000144;
+margin: 0 auto;
+}
+
+@media(min-width:900px){
+#skills{
+width:80%;
+}
+}
+
+#section2 h1{
+text-align:center; 
+width:100%;
+font-size: 32px;
+margin-bottom:2rem;
+}
+
+#horizon{
+width:300px;
+background:#000144;
+height:5px;
+border-radius:100px;
+}
+
+#file{
+background:#000144;
+height:8px;
+border-radius:100px;
+border:2px solid #fff;
+display:flex;
+align-items:center; 
+padding:7px;
+font-size:13px;
+font-weight:600;
+color:#fff;
+}
+label{
+font-weight:500;
+}
+
+
+#section3{
+height:100vh;
+display:flex;
+flex-direction:column;
+align-items:center; 
+justify-content:center;	
+padding-top:1.5rem;
+}
+
+#section3 h1{
+text-align:center; 
+width:100%;
+font-size: 32px;
+margin-bottom:2rem;
+}
+
+#con-form{
+width:375px;
+border:4px solid #000144;
+display:flex; 
+flex-direction:column;
+align-items:center;
+justify-content:center; 
+margin:0 auto;
+padding-bottom:1rem;
+}
+
+@media(max-width:390px){
+#con-form{
+width:340px;
+}				
+}
+
+@media(min-width:900px){
+#con-form{
+width:470px;			
+}
+#con-form textarea{
+height:130px;
+}
+}
+
+
+#con-form input::placeholder{
+color:#000144;
+}
+
+#con-form textarea::placeholder{
+color:#000144;
+}
+
+#con-form input{
+width:87%;
+border:2px solid #000144;
+height:40px;
+border-radius: 5px;
+outline:none;
+padding-inline:10px;
+}
+
+#con-form textarea{
+width:87%;	
+height:150px;
+border:2px solid #000144;
+border-radius: 5px;
+outline:none;
+padding-inline:10px;
+padding-top: 10px;
+font-family:Arial;
+}
+
+@media(min-width:900px){
+#con-form textarea{
+height:130px;
+}
+}
+
+#form-give{
+background:#000144;
+color:#fff;
+font-weight:500;
+width:50%;
+}
+
+#footer{
+width:100%;
+font-size:10px;			
+display:flex;
+align-items:center; 
+justify-content:center;
+background:#000144;
+color:#fff;
+padding-top:3px;
+padding-bottom: 2px;
+z-index:99;
+position:absolute;
+}
+@media(min-width:900px){
+#footer{
+font-size:13px;			
+padding-top:0px;
+padding-bottom: 0px;
+}				
+}
+</style>	
+
+
+
+
+
+
+
+
+
+
+<script>
+function get(){
+const x =document.getElementById("nav-toggler");
+const y =document.getElementById("body");
+const z =document.getElementById("logo");
+const a =document.getElementById("link");
+const b =document.getElementById("span");
+const c =document.getElementById("row");
+const d =document.getElementById("nav-toggle");
+const e =document.getElementById("skills");
+const f =document.getElementById("con-form");
+const g =document.getElementById("form-give");
+const h =document.getElementById("footer");
+
+
+  if (x.style.justifyContent  === "flex-end") {
+  x.style.justifyContent ="flex-start";
+  y.style.color ="#000144";  
+  y.style.background ="#f2f2f2";
+  z.style.border ="6px solid #000144";
+  a.style.color ="#f2f2f2";  
+  a.style.background ="#000144";
+  c.style.border ="5px solid #000144";
+  d.innerHTML ="☀️";
+  e.style.boxShadow ="0px 0px 5px #000144";
+  f.style.border ="4px solid #000144";
+  g.style.background ="#000144";
+  g.style.color ="#fff";  
+  h.style.background ="#000144";
+  h.style.color ="#fff";  
+  
+  } else {
+     x.style.justifyContent ="flex-end";
+ y.style.color ="#f2f2f2";  
+  y.style.background ="#000144";
+  z.style.border ="6px solid #f2f2f2";
+  a.style.color ="#000144";  
+  a.style.background ="#f2f2f2";
+  b.style.textShadow ="0px 0px 5px #f2f2f2";
+    c.style.border ="5px solid #f2f2f2";
+    c.style.boxShadow ="inset 0px 0px 8px #f2f2f2";
+      d.innerHTML ="🌙";
+       e.style.boxShadow ="0px 0px 5px 5px #f2f2f2";
+      f.style.border ="4px solid #fff";
+      g.style.background ="#fff";
+  g.style.color ="#000144";  
+  h.style.background ="#fff";
+  h.style.color ="#000144";  
+  }
+}
+
+
+</script>			
+
+
+<script>
+	const gra = function(min, max) { return Math.random() * (max - min) + min; } const init = function(){ let items = document.querySelectorAll('section'); for (let i = 0; i < items.length; i++){ items[i].style.background = randomColor({luminosity: 'light'}); } cssScrollSnapPolyfill() } init();
+</script>
+</body>
+</html>
